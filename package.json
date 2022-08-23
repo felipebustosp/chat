@@ -1,0 +1,15 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./app.js --exec babel-node -e js",
+    "test": "echo: \" No test specified\" && exit 1"
+  },
+  "author": "felipe",
+  "license": "ISC",
+  "devDependencies": {
+    "http": "^0.0.1-security"
+  }
+}

@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+#intro{
+    background-color: #000000;
+    color: #FFFFFF;
+    height: 5%;
+}
+
+body {
+    font: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aliceblue;
+}
+
+form input{
+    background-color: #e6ffe6;
+    border: 0;
+    padding: 10px;
+    width: 90%;
+    margin-right: 0.5%;
+}
+
+form button{
+    width: 9%;
+    background: #00e600;
+    border: none;
+    padding: 5px;
+    font-size: 20px;
+}
+
+#messages {
+    margin: 40%;
+    padding: 0;
+    border: #000000;
+    border-style: dotted;
+}
+
+#messages li {
+    padding: 5px 10px;
+}
+
+#list {
+    text-align: right;
+}
+
+#msg-form {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
